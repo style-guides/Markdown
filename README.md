@@ -151,7 +151,7 @@ and not with indentation
 This ensures that the code is properly sytnax highlighted and a reader
 instantly knows in which language the code is written.
 
-Therefore the multiline syntax SHOULD be used preferrably
+Therefore the multiline syntax SHOULD be used preferably
 even for single line code.
 
 Calculations (e.g. `5 * 1000 = 5000`) and file paths (e.g. `~/.ssh/config`)

@@ -93,6 +93,10 @@ The reference tag MAY also be shortened to save horizontal space:
 [github-repo]: https://help.github.com/articles/create-a-repo/
 ```
 
+In order to validate all links [markdown link check] SHOULD be used.
+
+[markdown link check]: https://github.com/tcort/markdown-link-check
+
 
 ## List
 

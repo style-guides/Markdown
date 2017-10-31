@@ -69,6 +69,23 @@ Another test sentence.
 ```
 
 
+### Spelling
+
+Headings SHOULD always be written in [title case].
+
+```md
+# List of All Projects
+```
+
+instead of
+
+```md
+# List of all projects
+```
+
+[title case]: http://grammar-monster.com/lessons/capital_letters_title_case.htm
+
+
 ## Links and Images
 
 Links and images with long URLs SHOULD be split up into usage and reference.

@@ -29,7 +29,7 @@ https://www.youtube.com/watch?v=0qo78R_yYFA)
 
 ## Headings
 
-### Code
+### Formatting
 
 Headings MUST always be formatted like
 
@@ -133,8 +133,10 @@ instead of
 
 ## Code
 
-Multiline code MUST be written with backticks and it MUST always
-be specified which language it is written in (In doubt use `txt`):
+Multiline code MUST be written with 3 backticks (`` ``` ``),
+except the code itself contains 3 backticks, then use 4 backticks (`` ```` ``).
+Furthermore it MUST always be specified in which language the code is written
+(In doubt use `txt`):
 
 ````md
 ```java
@@ -157,6 +159,25 @@ instantly knows in which language the code is written.
 
 Therefore the multiline syntax SHOULD be used preferably
 even for single line code.
+
+
+The info string after the opening of a fenced code block
+also MUST NOT contain leading spaces:
+
+````md
+```JavaScript
+const test = 123
+```
+````
+
+instead of
+
+````md
+``` JavaScript
+const test = 123
+```
+````
+
 
 Calculations (e.g. `5 * 1000 = 5000`) and file paths (e.g. `~/.ssh/config`)
 SHOULD also be formatted as inline code.
